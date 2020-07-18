@@ -1,0 +1,92 @@
+body{
+	background-color: #23272b;
+	color: aliceblue
+}
+#lognav{
+	background-color: #000033;
+	padding: 5px;
+	color: white;
+	font-size: 12px;
+	width: 100%;
+}
+.logbtn{
+	font-size: 10px;
+	height: 20px;
+	padding: 3px;
+	width: 50px;
+}
+.logemail{
+	font-size: 12px;
+	height: 20px;
+	width: 100%;
+}
+.logpwd{
+	font-size: 12px;
+	height: 20px;
+	width: 100%;
+}
+#logemail{
+	font-size: 12px;
+	height: 20px;
+	width: 100%;
+}
+#logpwd{
+	font-size: 12px;
+	height: 20px;
+	width: 100%;
+}
+#logbtn2{
+	background-color: #000033;
+	border-color: #B8B8B8;
+	color: #9F9F9F;
+	font-size: 10px;
+	height: 20px;
+	padding: 3px;
+	width: 50px;
+}
+#logbtn2:hover{
+    background-color: #003366;
+    border-color: #D1CFCF;
+    color: #D1CFCF;
+	font-size: 10px;
+	height: 20px;
+	padding: 3px;
+	width: 50px;
+    }
+#link1:link {
+    color: #CFCFCF;
+       background-color: transparent;
+       text-decoration: none;
+    }
+#link1:hover {
+        color:white;
+        background-color: transparent;
+        text-decoration: underline;
+    }#footermid{
+	background-color: #000033;
+	color: #CFCFCF;
+}
+#footermiddiv{
+	padding-left: 4%;
+}
+#footermid1{
+	font-size: 13.7px
+}
+#footermid2{
+	font-size: 13.5px
+}
+#footerbot{
+	background-color: #000033;
+	color: #CFCFCF;
+}
+#footerbothr{
+	width: 90%;
+	text-align: center;
+	background-color:#9D9D9D;
+}
+#copy{
+	text-align: center;
+}
+#navbar{
+	background-color: #000033;
+}

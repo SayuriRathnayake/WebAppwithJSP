@@ -1,0 +1,188 @@
+
+body {
+	background-color: #dedee0;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+
+}
+img {
+	border: 0;
+}
+
+
+#header {
+	
+
+	padding: 55px 10px 85px;
+	text-align: right;
+}
+#header > div {
+	width: 1400px;
+	margin: 0 auto;
+}
+#header > div:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+#logo {
+	float: left;
+	display: inline-block;
+	border-bottom: 3px solid black;
+	margin-left: 20px;
+	padding: 0 5px;
+}
+#logo a {
+	font-family: Times New Roman;
+	font-size: 60px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#logo a span {
+	color: #800000;
+}
+
+#navigation {
+	display: inline-block;
+	list-style: none;
+	width: 680px;
+	margin: 7px 10px 3px 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	margin-left: 10px;
+}
+#navigation li:first-child {
+	margin-left: 0;
+}
+#navigation li a {
+	color: #0F5C9F;
+	font-family: Times New Roman;
+	font-size: 25px;
+	line-height: 40px;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #c40891;
+	background-color: #ABBDBB;
+	border-radius: 5px;
+}
+
+
+#contents > div:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+#contents h1 {
+	color: #144F89;
+	font-family: Times New Roman;
+	font-weight: normal;
+	margin: 30px 0 20px;
+}
+
+
+#contents h3 {
+	color: #144F89;
+	font-family: Times New Roman;
+	font-weight: normal;
+	margin: 30px 0 20px;
+        
+}
+
+
+
+
+/** Adbox **/
+#adbox {
+	font-family: Times New Roman;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#adbox img {
+	float: left;
+	margin-right: 80px;
+
+#adbox h1 {
+	font-size: 60px;
+	margin: 10px 10px 20px;
+	padding-top: 60px;
+	text-transform: uppercase;
+}
+
+
+        
+
+
+
+
+
+
+/** Answers **/
+#contents #answers {
+	min-height: 900px;
+}
+#contents #answers p {
+	padding-right: 20px;
+}
+#answers ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#answers ul li {
+	float: left;
+	min-height: 150px;
+	width: 420px;
+	padding-right: 30px;
+}
+#contents #answers ul li p {
+	padding-right: 0;
+}
+#answers ul li p em {
+	display: block;
+}
+
+
+
+#footer > div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 60px 10px 30px;
+}
+#footer p {
+	clear: both;
+	color: #9f9f9f;
+	font-size: 13px;
+	margin: 0;
+	text-align: center;
+}
+
+table {
+    width: 75%;
+    margin-left:100px;
+}
+ 
+td {
+    height: 50px;
+    text-align: center;
+   
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+
